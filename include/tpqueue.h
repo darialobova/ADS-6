@@ -4,10 +4,11 @@
 
 template<typename T, int size>
 class TPQueue {
-  private:
-    T arr[100];
-    int first;
-    int last;
+    private:
+      T arr[100];
+      int first;
+      int last;
+    
   public:
     TPQueue() : first(0) , last(0) {}
     void push(T z1) {
